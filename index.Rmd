@@ -1,0 +1,17 @@
+---
+framework   : bootstrap   
+highlighter : prettify
+mode        : selfcontained 
+knit        : slidify::knit2slides
+---
+
+## An Example
+
+Trying to use `katexR`
+
+```{r katex-ex, cache=FALSE, results='asis'}
+library(katexR)
+katex("1+1")
+```
+
+And trying it inline `r katex("1+1=2")`
